@@ -1,0 +1,15 @@
+#sec-1{
+    height: 40vh;
+    background-image: url(https://wheretheroadforks.com/wp-content/uploads/2020/12/auschwitz-gate.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay{
+    height: 40vh;
+}
+
+#top-para{
+    margin-top: 100px;
+}

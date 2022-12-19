@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap-TRAVELER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link rel="stylesheet" href="destinations.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- ===================================== SECTION 1 STARTS HERE =========================================== -->
+    <section class=" text-bg-dark" id="sec-1" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6J041l1lWiLM5-EOWT6PnKkdzx8eOc6c7fsYIHLpYo6kyRZvTuC0zP1-KWY1o6aCmftk&usqp=CAU);  background-repeat: no-repeat; background-size: cover;" >
+      <div class="overlay w-100" id="overlay">
+        <div class="container">
+          <div class="row row-cols-1">
+            <div class="col">
+                <nav
+                class="navbar navbar-expand-md mx-xl-5 px-0 navbar-dark bg-transparent"
+                aria-label="Offcanvas navbar large"
+              >
+                <div class="container-fluid">
+                  <a class="navbar-brand fw-bold" href="index.html">TRAVELER.</a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2"
+                    aria-controls="offcanvasNavbar2"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="offcanvas bg-dark offcanvas-end text-bg-dark text-center"
+                    tabindex="-1"
+                    id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label"
+                    id="nav-sm"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
+                        TRAVELER.
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul
+                        class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                      >
+                        <li class="nav-item">
+                          <a
+                            class="nav-link"
+                            aria-current="page"
+                            href="destinations.html"
+                            >Destinations</a
+                          >
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Travel
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#">Europe</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Asia</a
+                              >
+                            </li>
+                            
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >America</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Canada</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Conatct</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+            <div class="col">
+                <div id="top-para" class="text-center">
+                    <h1 class="pe-lg-5">PLANS FOR EVERYONE</h1>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================== SECTION 1 ENDS HERE =========================================== -->
+
+    <!-- ===================================== SECTION 2 STARTS HERE =========================================== -->
+    <section class="my-5" id="sec-2">
+      <div class="text-center container">
+        <h1>Choose The Best Plan For You</h1>
+        <p class="destination-para px-2 px-sm-5 fs-5 text-secondary">
+            Join over 1 Million of users. Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+        </p>
+      </div>
+    
+      <!-- --------------------- PRICING CARDS ---------------------------- -->
+
+      <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 py-4">
+                  <div class="py-3">
+                    <h4 class="my-0 fw-bold">STARTER</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><sup class="fs-4">$</sup>7<sub class="fs-6">/mon</sub></h1>
+                    <h5 class="text-secondary">Basic customer support for small business</h5>
+                    <hr>
+                    <ul class="list-unstyled mt-3 mb-4 text-muted">
+                      <li class="my-1">10 Projets</li>
+                      <li class="my-1">20 Pages</li>
+                      <li class="my-1">20 Emails</li>
+                      <li class="my-1">100 Images</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg border rounded">Get started</button>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+                <div class="card mb-4 py-4">
+                  <div class="py-3">
+                    <h4 class="my-0 fw-bold">REGULAR</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><sup class="fs-4">$</sup>19<sub class="fs-6">/mon</sub></h1>
+                    <h5 class="text-secondary">Basic customer support for small business</h5>
+                    <hr>
+                    <ul class="list-unstyled mt-3 mb-4 text-muted">
+                      <li class="my-1">15 projects</li>
+                      <li class="my-1">40 Pages</li>
+                      <li class="my-1">40 Emails</li>
+                      <li class="my-1">200 Images</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg border rounded">Get started</button>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card mb-4 py-4 border-primary border border-2">
+                <div class="py-3">
+                  <h4 class="my-0 fw-bold">PLUS</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title"><sup class="fs-4">$</sup>79<sub class="fs-6">/mon</sub></h1>
+                  <h5 class="text-secondary">Basic customer support for small business</h5>
+                  <hr>
+                  <ul class="list-unstyled mt-3 mb-4 text-muted">
+                    <li class="my-1">Unlimited Projets</li>
+                    <li class="my-1">100 Pages</li>
+                    <li class="my-1">100 Emails</li>
+                    <li class="my-1">700 Images</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-primary rounded">Get started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <hr class="my-5">
+
+      <!-- -------------------- PRICING ENDS HERE ----------------- -->
+<div class="row text-center mx-0">
+    <div class="col pricing-questions">
+        <h1>Frequently Ask Questions</h1>
+    <p class="text-muted fs-5">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+    </div>
+</div>
+      <!-- ======== QUESTIONS ======== -->
+
+      <div class="container my-5 px-lg-5">
+        <div class="row">
+            <div class="col px-lg-5">
+                <div class="container">
+                    <ul>
+                        <li class="my-5">
+                            <h3>What is Traveler?</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </li>
+                        <li class="my-5">
+                            <h3>What language are available?</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </li>
+                        <li class="my-5">
+                            <h3>I have technical problem, who do I email?</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </li>
+                        <li class="my-5">
+                            <h3>Can I have a username that is already taken?</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </li>
+                        <li class="my-5">
+                            <h3>How do I use Traveler features?</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p>
+                        </li>
+                        <li class="my-5">
+                            <h3>Is Traveler free??</h3>
+                            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===================================== SECTION 2 ENDS HERE =========================================== -->
+
+
+      <!-- ------------------------------------------ NEWSLETTER ---------------------------------- -->
+      <div class="container-fluid text-center bg-primary text-white py-5">
+        <h1>Subscribe</h1>
+        <p class="fs-5 newsletter-para">
+          Be the first to know about the new templates.
+        </p>
+        <div
+          class="d-flex justify-content-center flex-column flex-sm-row align-items-center mb-3 mb-sm-0 mt-5 pb-5"
+        >
+          <input
+            type="text"
+            class="p-2 bg-transparent rounded newsletter-input me-sm-2"
+            placeholder="Your Email"
+          />
+          <button class="p-2 newsletter-btn rounded ms-sm-2 mt-3 mt-sm-0">
+            SUBSCRIBE
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--  -------------------------------------- SECTION 4 ENDS HERE ---------------------------- -->
+
+    <!-- ------------------------------------------ FOOTER STARTS HERE ------------------------------------------->
+    <footer class="container-fluid my-5 mx-0 px-0">
+      <!-- LINKS -================= -->
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center text-lg-start g-3"
+        >
+          <div class="col">
+            <h5>ABOUT US</h5>
+            <p class="text-secondary pe-lg-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              eos molestias quod sint ipsum possimus temporibus officia iste
+              perspiciatis consectetur in fugiat repudiandae cum. Totam
+              cupiditate nostrum ut neque ab?
+            </p>
+          </div>
+          <div class="col">
+            <h5>DESTINATIONS</h5>
+            <ul class="px-0">
+              <li><a href="#">Europe</a></li>
+              <li><a href="#">Australia</a></li>
+              <li><a href="#">Asia</a></li>
+              <li><a href="#">Canada</a></li>
+              <li><a href="#">Dubai</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>HOTELS</h5>
+            <ul class="px-0">
+              <li><a href="#">Luxe Hotel</a></li>
+              <li><a href="#">Itly 5 Star Hotel</a></li>
+              <li><a href="#">Dubai Hotel</a></li>
+              <li><a href="#">Deluxe Hotel</a></li>
+              <li><a href="#">BoraBora Hotel</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>GET IN TOUCH</h5>
+            <ul class="px-0">
+              <li>
+                <a href="#"
+                  ><i class="bi bi-telephone-fill me-2"></i>+1 234 567 890</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-envelope-fill me-2"></i>info@freehtml5.co</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-wechat me-2"></i>Live Chat</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="mt-5" />
+        <!-- horizontal row break  -->
+      </div>
+
+      <!-- LINKS ENDS HERE ------------------------------- -->
+
+      <!-- ---------- BOTTOM --------------- -->
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-md-2 text-center text-md-start mt-5"
+        >
+          <div class="col">
+            <p class="text-secondary">
+              &copy;2016 Free HTML5. All Rights Reserved.
+            </p>
+            <p class="text-secondary">
+              Designed by <span class="text-black">WAQAR ABBAS</span>. Demo
+              Images: <a href="#">Unsplash</a>
+            </p>
+          </div>
+          <div class="col text-center text-md-end">
+            <a href="https://www.facebook.com/aBBaSOO313"><i class="bi bi-facebook fs-4 mx-1"></i></a>
+            <a href="https://www.instagram.com/_abbaas313"><i class="bi bi-instagram fs-4 mx-1"></i></a>
+            <a href="#"><i class="bi bi-twitter fs-4 mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin fs-4 mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!--  -----------------------------FOOTER ENDS HERE ---------------------------- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
