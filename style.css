@@ -56,6 +56,37 @@
   overflow: hidden !important;
 }
 
+.popup{
+  opacity: 0;
+  visibility: visible;
+  height: 225px;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+.popup:hover{
+  opacity: 1;
+  visibility: visible !important;
+}
+
+#plus{
+  z-index: 12;
+  font-size: 40px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -30px;
+  top: 50%;
+  left: 50%;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 /* ------------------------------------ SECTION 3 ---------------------------------- */
 
 .iconBox {
